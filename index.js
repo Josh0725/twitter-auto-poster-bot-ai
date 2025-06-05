@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "Create a short, insightful tweet analyzing the current state of the crypto market. Include key trends, notable price movements (e.g. BTC, ETH), and any major news or sentiment shifts. Make it engaging and informative in under 280 characters. Add relevant hashtags";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
